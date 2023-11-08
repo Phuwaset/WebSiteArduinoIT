@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOYO</title>
+    <!-- ลิ้งค์ ของ css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ลิ้งค์ ของ js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <div class="d-inline p-2 text-bg-success">d-inline</div>
+        <div class="d-inline p-2 text-bg-danger">d-inline</div>
+        <br><br>
+        <span class="d-block p-2 text-bg-danger">d-block</span>
+        <span class="d-block p-2 text-bg-success">d-block</span>
+        <hr>
+
+        <p class="text-primary">.text-primary</p>
+        <p class="text-primary-emphasis">.text-primary-emphasis</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-secondary-emphasis">.text-secondary-emphasis</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-success-emphasis">.text-success-emphasis</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-danger-emphasis">.text-danger-emphasis</p>
+        <p class="text-warning bg-dark">.text-warning</p>
+        <p class="text-warning-emphasis">.text-warning-emphasis</p>
+        <p class="text-info bg-dark">.text-info</p>
+        <p class="text-info-emphasis">.text-info-emphasis</p>
+        <p class="text-light bg-dark">.text-light</p>
+        <p class="text-light-emphasis">.text-light-emphasis</p>
+        <p class="text-dark bg-white">.text-dark</p>
+        <p class="text-dark-emphasis">.text-dark-emphasis</p>
+
+        <p class="text-body">.text-body</p>
+        <p class="text-body-emphasis">.text-body-emphasis</p>
+        <p class="text-body-secondary">.text-body-secondary</p>
+        <p class="text-body-tertiary">.text-body-tertiary</p>
+
+        <p class="text-black bg-white">.text-black</p>
+        <p class="text-white bg-dark">.text-white</p>
+        <p class="text-black-50 bg-white">.text-black-50</p>
+        <p class="text-white-50 bg-dark">.text-white-50</p>
+        <hr>
+        <br>
+        <h2><b><u>background color</u></b></h2><br>
+        <p class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</p>
+        <p class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</p>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle</div>
+        <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+        <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle</div>
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle</div>
+
+        <div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+        <div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
+        <hr>
+        <br>
+        <div class="float-start">Float start on all viewport sizes</div><br>
+        <div class="float-end">Float end on all viewport sizes</div><br>
+        <div class="float-none">Don't float on all viewport sizes</div>
+        <br>
+        <hr>
+        <br>
+        <h1>boder</h1>
+        <div class="border border-success p-2 mb-2">This is default success border</div>
+        <div class="border border-success p-2" style="--bs-border-opacity: .5;">This is 50% opacity success border</div>
+        <hr>
+        <h1>table</h1>
+        <h2>Contextual Classes</h2>
+        <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active,
+            .success, .info, .warning, and .danger.</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Default</td>
+                    <td>Defaultson</td>
+                    <td>def@somemail.com</td>
+                </tr>
+                <tr class="success">
+                    <td>Success</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr class="danger">
+                    <td>Danger</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr class="info">
+                    <td>Info</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                <tr class="warning">
+                    <td>Warning</td>
+                    <td>Refs</td>
+                    <td>bo@example.com</td>
+                </tr>
+                <tr class="active">
+                    <td>Active</td>
+                    <td>Activeson</td>
+                    <td>act@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <div class="container">
+            <h2>Fire Glyph</h2>
+            <p>Fire icon: <span class="glyphicon glyphicon-fire"></span></p>
+            <p>Fire icon as a link:
+                <a href="#">
+                    <span class="glyphicon glyphicon-fire"></span>
+                </a>
+            </p>
+            <p>Fire icon on a button:
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-fire"></span> Fire
+                </button>
+            </p>
+            <p>Fire icon on a styled link button:
+                <a href="#" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-fire"></span> Fire
+                </a>
+            </p>
+            <p>Unicode:
+                <span class="glyphicon">&#xe104;</span>
+            </p>
+        </div>
+        <hr>
+        <h2>ไอคอนด้วย Bootstrap</h2>
+
+        <i class="bi bi-0-circle"></i>
+        <i class="bi bi-1-circle"></i>
+        <i class="bi bi-2-circle"></i>
+
+        <i class="bi bi-airplane-fill"></i>
+
+
+
+
+    </div>
+</body>
+</html>
